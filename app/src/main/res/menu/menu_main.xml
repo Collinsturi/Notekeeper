@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.rsk.notekeeper.NoteActivity">
+    <item
+        android:id="@+id/action_Next"
+        android:icon="@drawable/ic_baseline_navigate_next_24"
+        android:orderInCategory="101"
+        android:title="Next"
+        app:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+</menu>
